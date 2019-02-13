@@ -16,7 +16,7 @@ int main(void)
 		  a2=c3 + c4;
 		  if (a2 < 0xDC00 || a2 > 0xDFFF)
 		  {
-			printf("\nΛΑΘΟΣ ΚΩΔΙΚΟΠΟΙΗΣΗ ΧΑΡΑΚΤΗΡΩΝ ΕΙΣΟΔΟΥ\n");
+			printf("\nWRONG ENCODING OF INPUT CHARACTERS\n");
 			return 2;
 		  }
 		  a1 &= 0x3FF; //10 right bits of a1
@@ -27,7 +27,7 @@ int main(void)
 	    }
 	    else if (code >= 0xDC00 && code <= 0xDFFF)
 	    {
-		  printf("\nΛΑΘΟΣ ΚΩΔΙΚΟΠΟΙΗΣΗ ΧΑΡΑΚΤΗΡΩΝ ΕΙΣΟΔΟΥ\n");
+		  printf("\nWRONG ENCODING OF INPUT CHARACTERS\n");
 		  return 2;
 	    }
 	    
