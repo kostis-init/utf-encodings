@@ -39,7 +39,7 @@ int main(void)
 	    }
 	    else if (code>0x7F)
 	    {
-		  printf("\nΛΑΘΟΣ ΚΩΔΙΚΟΠΟΙΗΣΗ ΧΑΡΑΚΤΗΡΩΝ ΕΙΣΟΔΟΥ\n");
+		  printf("\nWRONG ENCODING OF INPUT CHARACTERS\n");
 		  return 2;
 	    }
 	    
